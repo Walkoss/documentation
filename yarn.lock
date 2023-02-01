@@ -4040,7 +4040,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-aria/ssr@npm:3.4.0, @react-aria/ssr@npm:^3.3.0, @react-aria/ssr@npm:^3.4.0":
+"@react-aria/ssr@npm:3.4.1":
+  version: 3.4.1
+  resolution: "@react-aria/ssr@npm:3.4.1"
+  dependencies:
+    "@swc/helpers": ^0.4.14
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 3421951446d1b8d3d5c9903cb098ee7a8058185d1bcfd1f04d8a3341958f5d2241f3d2f1232d8ddb46cd0fef9cfc6d39dd4a19bf3a64131e81ba21c57e80eda8
+  languageName: node
+  linkType: hard
+
+"@react-aria/ssr@npm:^3.3.0, @react-aria/ssr@npm:^3.4.0":
   version: 3.4.0
   resolution: "@react-aria/ssr@npm:3.4.0"
   dependencies:
@@ -4779,7 +4790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/helpers@npm:0.4.14":
+"@swc/helpers@npm:0.4.14, @swc/helpers@npm:^0.4.14":
   version: 0.4.14
   resolution: "@swc/helpers@npm:0.4.14"
   dependencies:
@@ -11436,7 +11447,7 @@ __metadata:
     "@open-draft/until": ^2.0.0
     "@pluralsh/design-system": 1.307.0
     "@pluralsh/eslint-config-typescript": 2.5.40
-    "@react-aria/ssr": 3.4.0
+    "@react-aria/ssr": 3.4.1
     "@react-stately/list": 3.5.4
     "@react-stately/select": 3.3.2
     "@tanstack/react-table": 8.5.28
