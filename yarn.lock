@@ -4797,18 +4797,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-table@npm:8.5.28":
-  version: 8.5.28
-  resolution: "@tanstack/react-table@npm:8.5.28"
-  dependencies:
-    "@tanstack/table-core": 8.5.28
-  peerDependencies:
-    react: ">=16"
-    react-dom: ">=16"
-  checksum: 109d7c2fa31c7a55904e7eac08c4824dc65630fea72353b574a7f6f694b186c870d7f9cc322f25cac958c6010dced1fe974b417b4626e81efcea08c62c94f3cf
-  languageName: node
-  linkType: hard
-
 "@tanstack/react-table@npm:8.7.6":
   version: 8.7.6
   resolution: "@tanstack/react-table@npm:8.7.6"
@@ -4821,10 +4809,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/table-core@npm:8.5.28":
-  version: 8.5.28
-  resolution: "@tanstack/table-core@npm:8.5.28"
-  checksum: 309f40d474f639b70932e17e20282ef2f3a3ccc4927db3273e4e9b34e271d525cd802c3c3b546613e0123782768862cbede527b56f1803f780888fc213afd8b5
+"@tanstack/react-table@npm:8.7.9":
+  version: 8.7.9
+  resolution: "@tanstack/react-table@npm:8.7.9"
+  dependencies:
+    "@tanstack/table-core": 8.7.9
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 3c704ac903405972641c9857e1466025bcdac04ee4890d64b018386cad5a778aca3a8d3f78542ae7a0ed609841d32ef3a7e563b079e87fa93b9ae8570a310499
   languageName: node
   linkType: hard
 
@@ -4832,6 +4825,13 @@ __metadata:
   version: 8.7.6
   resolution: "@tanstack/table-core@npm:8.7.6"
   checksum: edba55731245a5a1a46a9a69a1ca2a7d7ae24377ed478f6622d043b80b6f8fbcb19605843e0feb85b99b4a7d5407633be4e440e71c82a4bf876f05a62e8005ae
+  languageName: node
+  linkType: hard
+
+"@tanstack/table-core@npm:8.7.9":
+  version: 8.7.9
+  resolution: "@tanstack/table-core@npm:8.7.9"
+  checksum: 78d2314928c29559088e4bada0248cc7f94e93756e1a2c1f37a651db30276e9ae960d647bd3a61b67b3f0f9f7e4dec5dd58eb49b8adb80ee5952ef417b6e581f
   languageName: node
   linkType: hard
 
@@ -11439,7 +11439,7 @@ __metadata:
     "@react-aria/ssr": 3.4.0
     "@react-stately/list": 3.5.4
     "@react-stately/select": 3.3.2
-    "@tanstack/react-table": 8.5.28
+    "@tanstack/react-table": 8.7.9
     "@types/node": 18.11.18
     "@types/react": 18.0.27
     "@types/react-dom": 18.0.10
